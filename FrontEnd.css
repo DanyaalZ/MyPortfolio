@@ -1,0 +1,141 @@
+/* Body */
+body
+{
+  background-image: url("maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 50;
+}
+
+#login
+{
+  position: absolute;
+  top: 40;
+  right: 10;
+}
+
+button{
+  width: 75px;
+  height: 50px;
+}
+
+label{
+  font-family: Arial;
+  text-shadow: 2px 2px black;
+  font-size: 30;
+  color: white;
+}
+
+/*h1 */
+h1
+{
+  color: #383838;
+  font-family: Arial;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
+#small
+{
+  font-size: 18;
+}
+
+p{
+  font-family: Arial;
+  text-shadow: 2px 2px black;
+  font-size: 30;
+  color: white;
+}
+
+/* Navigation section */
+nav{
+  font-size: 24;
+  font-family: impact;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:	#383838;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: grey;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* Headshot */
+#picture
+{
+  margin-left: 500;
+  border-radius: 8px;
+  box-shadow: 2px 2px black;
+}
+
+/* Copyright */
+#copy
+{
+  text-align: right;
+  font-family: impact;
+  font-size: 20;
+}
+
+/* Buttons */
+button
+{
+  border-radius: 8px;
+  background-color: grey;
+  font-family: impact;
+}
+
+/*Line */
+hr
+{
+  border: 10px solid 	#383838;
+  border-radius: 5px;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+
+input[type=submit] {
+  width: 75px;
+  height: 25px;
+  border-radius: 8px;
+  background-color: grey;
+  font-family: impact;
+}
+
+fieldset
+{
+  border-width: 2px;
+  border-color: black;
+  padding: 5px;
+}
+
+#contact {
+  padding: 25px;
+}
